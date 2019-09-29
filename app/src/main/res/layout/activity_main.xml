@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/ed_nhapten"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="nhap thong tin"
+        android:textSize="24dp" />
+
+    <EditText
+        android:id="@+id/ed_content"
+        android:layout_width="match_parent"
+        android:layout_height="426dp"
+        android:inputType="textImeMultiLine"
+        android:textSize="24dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/bt_nhapmoi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nhap moi"
+            android:textSize="24dp" />
+
+        <Button
+            android:id="@+id/bt_luu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Luu"
+            android:textSize="24dp" />
+
+        <Button
+            android:id="@+id/bt_xem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Xem"
+            android:textSize="24dp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
